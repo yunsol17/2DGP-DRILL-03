@@ -17,13 +17,14 @@ def run_right():
     print('RIGHT')
     for y in range(600,0,-10):
         draw_boy(800,y)
-    pass
 def run_bottom():
     print('BOTTOM')
-    pass
+    for x in range(800,0,-10):
+        draw_boy(x,0)
 def run_left():
     print('LEFT')
-    pass
+    for y in range(0,600,10):
+        draw_boy(0,y)
 
 def run_rectangle():
     print('RECTANGLE')
